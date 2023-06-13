@@ -34,9 +34,11 @@ $web->setRedirectUris(['https://localhost', ]);
 
 
 $requestBody->setWeb($web);
+$requestBody->setServiceManagementReference('Owners aliases: Finance @ contosofinance@contoso.com; The Phone Company HR consulting @ hronsite@thephone-company.com;');
 
 
-$requestResult = $graphServiceClient->applicationsById('application-id')->patch($requestBody);
+
+$result = $graphServiceClient->applications()->byApplicationId('application-id')->patch($requestBody);
 
 
 ```
