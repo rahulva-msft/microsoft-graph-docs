@@ -57,7 +57,7 @@ The table below defines the resource unit limits for an application in a tenant:
 |  License count  |   0 – 1k  |  1k – 5k  |  5k - 15k | 15k - 50k |    50k+   |
 | --------------- | --------- | --------- | --------- | --------- | --------- |
 |   App 1 minute  |   1,200   |   2,400   |   3,600   |   4,800   |   6,000   |
-|    App daily    | 1,200,000 | 2,400,000 | 3,600,000 | 4,800,000 | 6,000,000 |
+|    App daily    |   1,200   | 2,400,000 | 3,600,000 | 4,800,000 | 6,000,000 |
 
 > [!NOTE]
 > We reserve the right to change the resource unit limits.
