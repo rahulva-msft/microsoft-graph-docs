@@ -1,6 +1,8 @@
 ---
 title: Avoid getting throttled or blocked in Cloud Communinication Online API's
 description: Find out about throttling in CCA and learn how to avoid being throttled or blocked.
+author: "Rahul Varrier"
+ms.author: rahulva
 ms.date: 06/09/2023
 ms.assetid: 33ed8106-d850-42b1-8d7f-5ba83901149c
 ms.localizationpriority: high
@@ -66,8 +68,8 @@ In terms of API costs, [Microsoft Graph APIs](/graph) have a predetermined resou
 | Resource units per request | Operations                                              |
 | -------------------------- | ------------------------------------------------------- |
 | 1	                         | <li>Single item query, such as get presence for single user<li> |
-| 5	                         | <li>Multi item query, such as get-presence for multiple users <li>Create, update, delete and upload |
-| 10	                     | <li>All other resource operations, including $expand=permissions |
+| 5	                         | <li>Multi item query, such as get-presence for multiple users <li>Create, update, delete 
+| 10	                     | <li>All other resource operations
 
 > [!NOTE]
 > We reserve the right to change the API resource unit cost.
