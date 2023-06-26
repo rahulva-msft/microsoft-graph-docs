@@ -1,5 +1,5 @@
 ---
-title: Avoid getting throttled or blocked in Cloud Communinication Online API's
+title: Avoid getting throttled or blocked in Cloud Communication Online API's
 description: Find out about throttling in CCA and learn how to avoid being throttled or blocked.
 author: "Rahul Varrier"
 ms.author: rahulva
@@ -8,7 +8,7 @@ ms.assetid: 33ed8106-d850-42b1-8d7f-5ba83901149c
 ms.localizationpriority: high
 ---
 
-# Avoid getting throttled or blocked in CCA Online
+# Avoid getting throttled or blocked in Cloud Communication Online API's(CCA) Online
 
 Find out about throttling in CCA Online and learn how to avoid being throttled or blocked. 
 
@@ -49,7 +49,7 @@ That said, it's rare for a user to get throttled in CCA Online. The service is r
 
 In addition to throttling by user account, limits are also applied to applications in a tenant. 
 
-Every application has its own limits in a tenant, which are based on the number of licenses purchased per organization (see the plans listed on [CCA Limits](/office365/servicedescriptions/Microsoft-Teams-service-description/Skype-for-Business-Online-service-description#Online-limits) for licenses included). Every request that an application makes across all API endpoints, including [Microsoft Graph](/graph), CSOM and REST, counts towards the application’s usage.
+Every application has its own limits in a tenant, which are based on the number of licenses purchased per organization (see the plans listed on [CCA Limits](https://learn.microsoft.com/en-us/microsoftteams/limits-specifications-teams) for licenses included). Every request that an application makes across all API endpoints, including [Microsoft Graph](/graph), CSOM and REST, counts towards the application’s usage.
 
 CCA provides various APIs. Different APIs have different costs depending on the complexity of the API. The cost of APIs is normalized by CCA and expressed by resource units. Application’s limits are also defined using resource units.
 
@@ -67,9 +67,9 @@ In terms of API costs, [Microsoft Graph APIs](/graph) have a predetermined resou
 
 | Resource units per request | Operations                                              |
 | -------------------------- | ------------------------------------------------------- |
-| 1	                         | <li>Single item query, such as get presence for single user<li> |
-| 5	                         | <li>Multi item query, such as get-presence for multiple users <li>Create, update, delete 
-| 10	                     | <li>All other resource operations
+| 1	                         | <li>Single item query for presence, meetings and calling <li> update, delete|
+| 5	                         | <li>Multi item query for presence, meetings and calling <li>Create 
+| 10	                     | <li>All other resource operations such as Virtual Event creation
 
 > [!NOTE]
 > We reserve the right to change the API resource unit cost.
